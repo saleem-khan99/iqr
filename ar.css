@@ -1,0 +1,396 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.main{
+    width: 100%;
+    background: linear-gradient(to top, rgba(131, 81, 81, 0.5)50%, rgba(0,0,0,0.5)50%),url(ccc.jpg);
+    
+ background-position: center;
+ background-size: cover;
+ height: 109vh;
+}
+
+.logo{
+    color: #ff7200;
+
+
+}
+.navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+        
+        /* border-top-right-radius: 60px; */
+        /* border-top-left-radius: 60px; */
+        /* border: solid rgb(243, 128, 128) 4px; */
+        
+}
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+
+}
+.logo{
+    color: rgb(23, 53, 53);
+    font-size: 35px;
+    font-family: Arial;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+display: inline;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+
+}
+ul li a{
+    text-decoration: none;
+    color: rgb(232, 248, 248);
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color: #ff7200;
+
+}
+.search{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+    
+
+}
+.srch{
+    font-family: 'Times New Roman';
+    width: 225px;
+    height: 40px;
+    background-color: #ea780d;
+    border: 2px solid rgb(10, 7, 6);
+    margin-top: 13px;
+    color: aqua;
+    border-right: none;
+    font-size: 16px;
+    float: left;
+    padding: 12px;
+    border-bottom-left-radius: 5px;
+    border-top-left-radius: 5px;
+    
+}
+.btn{
+    width: 100px;
+    height: 40px;
+    background-color: #d66910;
+    border: 2px solid rgb(21, 13, 13);
+    margin-top: 13px;
+    color: rgb(53, 53, 37);
+    font-size: 15px;
+    
+
+
+}
+.search :hover{
+    background-color: #252121;
+}
+.btn :focus{
+    outline: none;
+
+}
+.srch :focus{
+    outline: none;
+
+}
+.content{
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    color: rgb(224, 245, 243);
+    position: relative;
+
+}
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+ .content h1{
+    font-family: 'Times New Roman';
+    font-size: 50px;
+    padding-left: 20px;
+    margin-top: 9%;
+    letter-spacing: 2px;
+
+ }
+ .content .cn{
+    width: 160px;
+    height: 40px;
+    background: orange;
+    border: none;
+    margin-bottom: 10px;
+    margin-left: 20px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+  transition: .4s ease;
+
+ }
+.content .cn a{
+    text-decoration: none;
+}
+.cn:hover{
+ background-color: rgb(228, 228, 215);
+}
+.content span{
+    color: rgb(108, 235, 193);
+    font-size: 60px;
+}
+.form{
+    width: 300px;
+    text-align: center;
+    height: 420px;
+    background: linear-gradient(to top, rgba(0,0,0,0.8)50%, rgba(0,0,0,0.8)50%);
+    position: absolute;
+    top: -20px;
+    left: 910px;
+    border-radius: 10px;
+    padding: 25px;
+}
+.form h2{
+  width: 220px;
+  text-align: center;
+  font-family: sans-serif;
+  text-align: center;
+  color: rgb(0, 0, 0);
+  font-size: 22px;
+  background-color: rgb(85, 76, 190);
+  border-radius: 10px;
+  margin: 2px;
+  padding: 8px;
+  
+}
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid orange;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    color: rgb(230, 224, 237);
+    font-size: 15px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+
+}
+.form input:focus{
+    outline: none;
+
+}
+::placeholder{
+    color: #fff;
+    
+    font-family: Arial;
+
+}
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: #ff7200;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #fff;
+    transition: 0.4s;
+
+}
+.btnn:hover{
+    background: #fff;
+    color: #ff7200;
+}
+.btnn a{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+
+}
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+
+}
+.form .link a{
+    text-decoration: none;
+    color: #ff7200;
+
+}
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center; 
+}
+.icons{
+    transition: none;
+    color: #fff;
+
+}
+.icons ion-icon{
+color: #fff;
+font-size: 30px;
+padding-left: 14px;
+padding-top: 5px;
+transition: 0.3s ease;
+}
+.icons ion-icon :hover{
+    color: #ff7200;
+}
+.hp{
+    width: 40%;
+    margin-top: 5px;
+    margin-left: 50px;
+    background-color: #d1bdbd;
+}
+.card-body{
+    background-color: rgb(161, 161, 231);
+    height: 210px;
+    width: 90%;
+    margin-left: 30px;
+    border: solid rgb(156, 146, 146) 5px;
+}
+.card-header{
+    border: solid rgb(171, 151, 151) 3px;
+    border-radius: 4px;
+}
+.day{
+
+    
+    color: #d66910;
+    
+}
+.fic{
+    margin-left: 40%;
+    margin-top: 30px;
+
+}
+.fic1{
+width: 80px;
+margin-left: 40px;
+margin-top: -24px;
+
+} 
+.fic2{
+    margin-left: 48%;
+    margin-top: -410px;
+    padding: 40px;
+}
+.fic3{
+    margin-left:52% ;
+    margin-top: -39px;
+}
+.fic4{
+    margin-top: -369px;
+    margin-left: 38px;
+}
+.form-group{
+    font-size: 20px;
+    margin-left: 5%;
+    
+    margin-top: 10px;
+}
+.ab{
+    width: 40%;
+    margin-left: 20px;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+
+
+.aa{
+    width: 40%;
+    margin-left: 30px;
+    border: solid black 1px;
+    margin-top: 10px;
+}
+.us{
+    margin-left: 50px;
+    color: #d66910;
+    
+}
+
+.cc{
+    width: 60%;
+    margin-left: 30px;
+  color: #e18e45; 
+ border: solid black 1px;  
+
+}
+.th{
+    margin-left: -50%;
+    margin-top: -19px;
+}
+.a1{
+    margin-left: -55%;
+    font-size: 30px;
+    padding: 10px;
+    margin-top: -60px;
+
+}
+.head{
+    
+    height: 60px;
+    margin-top: 70px;
+    background: rgb(74, 53, 92);
+    width: 100%;
+}
+.all{
+    margin-left: -70%;
+    margin-top: -747px;
+}
+.fa{
+    margin-right: -70%;
+    margin-top: -85px;
+}
+.pag{
+    margin-top: -95px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
